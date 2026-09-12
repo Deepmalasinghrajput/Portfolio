@@ -1,0 +1,6 @@
+# This portfolio is a static HTML/CSS/JS site.
+# No Python packages are required for Render Static Site hosting.
+#
+# If you deploy as a Python Web Service instead, uncomment:
+# flask==3.1.0
+# gunicorn==23.0.0
