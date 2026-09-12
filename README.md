@@ -1,45 +1,32 @@
 # Deepmala Singh — Portfolio
 
-Professional AI/ML & GenAI portfolio built on the Colorlib Clark HTML template.
+Professional AI/ML & GenAI portfolio.
+
+**GitHub:** https://github.com/Deepmalasinghrajput/Portfolio
 
 ## Run locally
 
-From this folder:
-
 ```bash
-# Option A — Python
 python -m http.server 5500
-
-# Option B — Node
-npx --yes serve .
 ```
 
-Then open: http://localhost:5500
+Open: http://localhost:5500
 
-Or open `index.html` directly in a browser.
+## Deploy on Render (Static Site)
 
-## What you still need to provide
+1. Go to [https://dashboard.render.com](https://dashboard.render.com)
+2. Click **New +** → **Static Site**
+3. Connect GitHub and select **Deepmalasinghrajput/Portfolio**
+4. Settings:
+   - **Name:** `deepmala-portfolio` (or any name)
+   - **Branch:** `main`
+   - **Build Command:** leave empty (or `echo done`)
+   - **Publish Directory:** `.`
+5. Click **Create Static Site**
 
-Search `index.html` for these placeholders and replace them:
+`render.yaml` is included for Blueprint deploy if you prefer **New + → Blueprint**.
 
-| Placeholder | What to add |
-|-------------|-------------|
-| `[EMAIL]` | Your email |
-| `[LINKEDIN_URL]` | LinkedIn profile URL |
-| `[GITHUB_URL]` | GitHub profile URL |
-| `[NEXORA_GITHUB_URL]` | NexoraAI repo URL |
-| `[NEXORA_LIVE_URL]` | NexoraAI live demo |
-| `[MEETMIND_LIVE_URL]` | MeetMind live demo |
-| `[TICKET_GITHUB_URL]` | Ticket Categorizer repo |
-| `[TICKET_LIVE_URL]` | Ticket Categorizer demo |
-| Resume PDF | Place at `assets/resume/Deepmala_Singh_Resume.pdf` |
-| Photo | `images/Deepmala_Singh.jpg.jpeg` |
+## Resume
 
-MeetMind GitHub is already set to: https://github.com/Deepmalasinghrajput/MeetMind
+PDF path: `assets/resume/Deepmala_AI_ML_Engineer_Resume.pdf`
 
-## Main files
-
-- `index.html` — all content
-- `css/portfolio-custom.css` — AI/ML portfolio enhancements
-- `css/style.css` — original template theme (kept)
-- `js/main.js` — original animations / navigation (kept)
