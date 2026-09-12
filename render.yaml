@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: deepmala-portfolio
+    runtime: static
+    buildCommand: echo "Static portfolio - no build step"
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

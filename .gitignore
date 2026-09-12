@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Local / build leftovers
+node_modules/
+.vite/
+dist/
+*.local
